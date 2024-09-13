@@ -198,4 +198,8 @@ h2 {
     display: block;
     text-align: left;
   }
+
+  .projects-grid {
+    gap: 0;
+  }
 }
