@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Tadeo Lopez's Portfolio</title>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("navbar");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <nav class="topnav" id="navbar">
+    <a href="#About">About</a>
+    <a href="#Work">Work</a>
+    <a href="#contact-section">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <section id="welcome-section">
+    <div class="introduction">
+      <h1 class="title">Tadeo López</h1>
+      <p class="subtitle">web developer</p>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <h2 class="projects-section-header">Some of my projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project">
+        <img class="project-image"
+          src="./MandelaTributePage.png"
+          alt="Random Quote Machine">
+        <div class="project-tile">
+          <a class="title-anchor" href="https://github.com/Tadeo-Lopez" target="_blank">
+            <p class="project-title">Tribute Page for Nelson Mandela</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img class="project-image"
+          src="./Screenshot_2.jpg"
+          alt="Random Quote Machine">
+        <div class="project-tile">
+          <a class="title-anchor" href="https://github.com/Tadeo-Lopez" target="_blank">
+            <p class="project-title">Angular Documentation Page</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact-section">
+    <a id="profile-link" href="https://github.com/Tadeo-Lopez" target="_blank"></a>
+  </section>
+</body>
+
+</html>
