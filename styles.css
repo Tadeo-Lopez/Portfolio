@@ -74,6 +74,7 @@ body {
   height: 10rem;
   flex-wrap: wrap;
   align-content: center;
+  padding: 10rem 0;
 }
 
 h2 {
